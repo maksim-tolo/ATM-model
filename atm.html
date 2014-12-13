@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ATM-model</title>
+		<link type="text/css" href="style.css" rel="stylesheet">
+		<link type="text/css" href="fonts.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="atm clearfix">
+		<div class="left">
+		<div class="screen">
+			<header class="clearfix">
+				<img src="logo.png">
+				<div>
+					<p>Телефон технической поддержки</p>
+					<p>+375 17 218 84 31</p>
+				</div>
+			</header>
+			<div class="page1 clearfix">
+				<p>Пожалуйста,</p>
+				<img src="cart.jpg" width="220px">
+				<p>вставьте вашу карту</p>
+			</div>
+			<div class="page2">
+				<p>Введите пароль</p>
+				<div></div>
+				<h1 class="errPass"></h1>
+			</div>
+			<div class="errPage">
+				<p>Ваша карточка заблокирована, для её разблокировки обратитесь в банк, выдавший карточку</p>
+				<p>Нажмите "OK" для извлечения карточки</p>
+				<div class="removeCard">OK</div>
+			</div>
+			<div class="page3 clearfix">
+				<ul>
+					<li>Выдача наличных</li>
+					<li>Остаток на счёте</li>
+					<li>Платежи</li>
+
+				</ul>
+				<ul>
+					<li>Переводы</li>
+					<li>Извлечь карточку</li>
+				</ul>
+			</div>
+			<div class="page4">
+				<p>Введите сумму для снятия</p>
+				<div></div>
+				<h1 class="errSumm"></h1>
+			</div>
+			<div class="page5 clearfix">
+				<p>Распечатать чек?</p>
+				<div>Да</div>
+				<div>Нет</div>
+			</div>
+			<div class="page6"></div>
+			<div class="page7 clearfix">
+				<p>Желаете провести другие операции?</p>
+				<div>Да</div>
+				<div>Нет</div>
+			</div>
+			<div class="page8 clearfix">
+				<div>На экран</div>
+				<div>В чек</div>
+			</div>
+			<div class="lastPage">Пожалуйста, заберите свою карточку</div>
+		</div>
+		<div class="cash"><p>CASH</p><h1 class="indicator first"></h1><div><div><img class="money" src="money.png"></div></div></div>
+		<div class="footer">
+		<div class="numpad">
+			<table>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td class="key cancel">cancel<div class="icon-close"></div></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+				<td class="key clear">clear<div>|</div></td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td class="key enter">enter<div class="icon-radio-unchecked"></div></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>0</td>
+				<td></td>
+				<td class="key"></td>
+			</tr>
+			</table>
+		</div>
+		</div>
+		</div>
+			<div class="right">
+				<div class="check">
+					<p>CHECK</p>
+					<div class="indicator second"></div>
+				</div>
+				<div class="output-check">
+					<div>
+						<div></div>
+						<img src="check.jpg" class="checkItem">
+					</div>
+				</div>
+				<div class="card">
+					<p>CARD</p>
+					<div class="indicator third"></div>
+				</div>
+				<div class="input-card">
+					<div class="targetDrop">
+						<div></div>
+						<img src="belbankvisa.png" class="userCard2">
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="belbankvisa.png" draggable="true" class="userCard">
+		<script src="main.js"></script>
+	</body>
+</html>

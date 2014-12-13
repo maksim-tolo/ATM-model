@@ -1,0 +1,387 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: 2px;
+}
+.left, .right {
+	float: left;
+}
+.atm {
+	margin: auto;
+	width: 900px;
+}
+.screen {
+	width: 600px;
+	height: 400px;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+	background: #127d49;
+}
+header > img {
+	padding: 5px;
+	background: white;
+	box-shadow: 0 0 10px;
+	border-radius: 10px;
+}
+header > div {
+	float: right;
+	width: 330px;
+	text-align: center;
+	background: #127d49;
+	padding: 0;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-bottom: solid 1px #17e67e;
+}
+header > div > p {
+	color: #17e67e;
+}
+header > div > p + p {
+	color: white;
+	font-size: 20px;
+}
+.clearfix:after{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+.errPage {
+	font-size: 20px;
+	display: none;
+	text-align: center;
+	color: white;
+}
+.errPage > * {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.removeCard {
+	font-size: 30px;
+	width: 100px;
+	height: 40px;
+	margin: auto;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #d7500e;
+}
+.page1 {
+	margin: 40px;
+	color: white;
+	font-size: 40px;
+}
+.page1 > img {
+	float: right;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.errPass, .errSumm {
+	color: red;
+	font-size: 20px;
+}
+.page2 {
+	text-align: center;
+	display: none;
+}
+.page2 > p {
+	color: white;
+	margin: 20px;
+	font-size: 40px;
+}
+.page2 > div {
+	height: 40px;
+	width: 200px;
+	background: white;
+	font-size: 50px;
+	text-align: left;
+	border: solid 1px #6c6e63;
+	margin: auto;
+}
+.page3 {
+	display: none;
+}
+.page3 > ul {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.page3 li {
+	cursor: pointer;
+	padding: 20px;
+	font-size: 25px;
+	margin: 30px;
+	border-radius: 15px;
+	background: #d7500e;
+	color: white;
+}
+.page4 {
+	text-align: center;
+	display: none;
+}
+.page4 > p {
+	color: white;
+	margin: 20px;
+	font-size: 40px;
+}
+.page4 > div {
+	height: 40px;
+	width: 400px;
+	background: white;
+	font-size: 40px;
+	text-align: left;
+	border: solid 1px #6c6e63;
+	margin: auto;
+}
+.page5, .page7, .page8 {
+	display: none;
+	color: white;
+	margin: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+.page5 > div , .page7 > div {
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin: 85px;
+	margin-top: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #d7500e;
+}
+.page6 {
+	display: none;
+	color: white;
+	margin: 20px;
+	margin-top: 60px;
+	font-size: 30px;
+	text-align: center;
+}
+.page6 > div {
+	cursor: pointer;
+	width: 150px;
+	padding: 10px;
+	font-size: 25px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 15px;
+	background: #d7500e;
+	color: white;
+}
+ .page8 > div {
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin: 60px;
+	margin-top: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #d7500e;
+}
+.lastPage {
+	margin: 20px;
+	margin-top: 50px;
+	font-size: 40px;
+	display: none;
+	text-align: center;
+	color: white;
+}
+.cash {
+	width: 600px;
+	background: #6c6e63;
+	border-radius: 6px;
+	box-shadow: 0 0 10px;
+}
+.cash > p {
+	padding: 0;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.cash > div {
+	margin: auto;
+	width: 600px;
+	height: 60px;
+	background: #6c6e63;
+	border-radius: 5px;
+	box-shadow: 0 0 10px;
+}
+.cash > div > div{
+	margin: auto;
+	width: 500px;
+	height: 40px;
+	background: #a19c9c;
+	position: relative;
+	top: 10px;
+	box-shadow: inset 0 0 10px;
+	border-radius: 5px;
+}
+.numpad {
+	width: 385px;
+	height: 320px;
+	margin: auto;
+	background: #6c6e63;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+table {
+	border-spacing: 20px;
+}
+td {
+	cursor: pointer;
+	height: 55px;
+	padding: 0;
+	width: 55px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.key {
+	width: 120px;
+	font-size: 20px;
+}
+.cancel {
+	background: #e01620;
+}
+.clear {
+	background: #deb22e;
+}
+.enter {
+	background: #28ae5d;
+}
+.footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 600px;
+	background: #6c6e63;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.right {
+	width: 300px;
+	background: #6c6e63;
+	height: 860px;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.card {
+	width: 280px;
+	height: 80px;
+	margin: auto;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.card > p {
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.indicator {
+	height: 0;
+	padding: 4px;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 200px;
+}
+.first, .second {
+	background: #a19c9c;
+}
+.third {
+	background: #17e67e;
+	animation: blink 2s linear infinite;
+	-webkit-animation: blink 2s linear infinite;
+}
+@keyframes blink {
+	50% { background: #17e67e; }
+	51% { background: #a19c9c; }
+	100% { background: #a19c9c; }
+}
+@-webkit-keyframes blink {
+	50% { background: #17e67e; }
+	51% { background: #a19c9c; }
+	100% { background: #a19c9c; }
+}
+.input-card > div{
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.input-card > div > div {
+	margin: auto;
+	width: 140px;
+	padding: 8px;
+	background: black;
+	border-radius: 5px;
+	box-shadow: 0 0 20px;
+	position: relative;
+	top: 66px;
+}
+.check {
+	width: 280px;
+	height: 80px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+}
+.check > p {
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.output-check > div{
+	width: 280px;
+	height: 80px;
+	margin: auto;
+	box-shadow: 0 0 10px;
+	border-radius: 5px;
+	margin-bottom: 60px;
+}
+.output-check > div > div {
+	margin: auto;
+	width: 220px;
+	padding: 4px;
+	background: black;
+	border-radius: 5px;
+	box-shadow: 0 0 20px;
+	position: relative;
+	top: 36px;
+}
+.userCard{
+	position: absolute;
+	top: 600px;
+	right: 50px;
+	border-radius: 10px;
+	cursor: move;
+}
+.userCard2 {
+	display: none;
+	position: relative;
+	left: 33px;
+	top: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.money {
+	display: none;
+	position: relative;
+	height: 40px;
+	width: 500px;
+	top: 3px;
+	cursor: pointer;
+}
+.checkItem {
+	display: none;
+	top: 32px;
+	right: -45px;
+	position: relative;
+	width: 70%;
+	cursor: pointer;
+}

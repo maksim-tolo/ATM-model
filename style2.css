@@ -1,0 +1,26 @@
+﻿.app {
+	width: 500px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0 0 10px;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.name, .password, .balance {
+	width: 450px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+::-webkit-input-placeholder {font-style: italic;}
+::-moz-placeholder          {font-style: italic;}
+:-moz-placeholder           {font-style: italic;}
+:-ms-input-placeholder      {font-style: italic;}
+.submit {
+	margin-bottom:20px;
+}
